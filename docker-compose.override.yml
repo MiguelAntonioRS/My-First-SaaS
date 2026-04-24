@@ -1,0 +1,6 @@
+worker:
+  extends:
+    file: docker-compose.yml
+    service: app
+  command: npm run start:worker
+  container_name: saas_worker
