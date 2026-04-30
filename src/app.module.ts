@@ -11,6 +11,8 @@ import { RedisModule } from './infrastructure/cache/redis.module';
 import { AuthPresentationModule } from './presentation/auth/auth.module';
 import { UserModule } from './presentation/user/user.module';
 import { TeamModule } from './presentation/team/team.module';
+import { ProjectModule } from './presentation/project/project.module';
+import { TaskModule } from './presentation/task/task.module';
 import { TenantMiddleware } from './shared/middleware/tenant.middleware';
 import { HealthModule } from './shared/health/health.module';
 
@@ -59,6 +61,8 @@ import { HealthModule } from './shared/health/health.module';
     AuthPresentationModule,
     UserModule,
     TeamModule,
+    ProjectModule,
+    TaskModule,
   ],
   exports: [TypeOrmModule, RedisModule],
 })
