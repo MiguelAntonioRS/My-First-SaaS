@@ -10,7 +10,7 @@ The platform follows **Clean Architecture** principles with **Domain-Driven Desi
  
 ``` 
 src/
-├── domain/           # Business entities, value objects, and d omain logic
+├── domain/           # Business entities, value objects, and domain logic
 │   ├── common/       # Shared domain concepts (exceptions, events, interfaces)
 │   ├── tenant/       # Tenant entity
 │   ├── user/         # User and Role entities
