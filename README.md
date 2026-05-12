@@ -5,7 +5,7 @@
 A production-ready multi-tenant SaaS platform built with NestJS, TypeORM, PostgreSQL, and Redis. This platform provides a complete organizational management system with user management, role-based access control, project management, and task tracking.
 
 ## Architecture 
-  
+
 The platform follows **Clean Architecture** principles with **Domain-Driven Design (DDD)** patterns, organized into distinct layers:
  
 ``` 
